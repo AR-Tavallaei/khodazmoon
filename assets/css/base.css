@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url("../fonts/Vazir.ttf");
+}
+
+@font-face {
+    font-family: 'Tanha';
+    src: url("../fonts/Tanha.ttf");
+}
+
+*{
+    font-family: Vazir, sans-serif;
+}
+
+html, body{
+    height: 100%!important;
+}
+.container-fluid{
+    min-height: 100%!important;
+}
+
+p{
+    font-family: Tanha, sans-serif;
+}
+
+header, h1{
+    background-color: #1a1d20;
+}
+
+h1 {font-size: 2.5rem}
+
+@media only screen and (max-width: 992px){
+    h1 {font-size: 2rem}
+}
+
+@media only screen and (max-width: 576px){
+    h1 {font-size: 1.5rem}
+}

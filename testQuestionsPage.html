@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>آزمون فصل اندازه گیری هفتم </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @import "assets/css/base.css";
+        h2, h3, label {font-family: Tanha, sans-serif;}
+        ul {list-style-type: none;}
+        li:hover {background-color: #1a1d20;}
+        label, li, input {cursor: pointer;}
+        a, li {width: max-content!important;}
+        input{vertical-align: middle;}
+        h3 {margin-bottom: 20px;}
+        li {font-size: 1.5rem;}
+        h2 {font-size: 2rem;}
+        @media only screen and (max-width: 576px) {
+            li, h2 {width: initial!important; font-size: 1rem;}
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <div class="container-fluid text-center bg-dark text-white pb-5 px-0">
+        <header class="d-flex flex-sm-row flex-column justify-content-between align-items-center m-0">
+            <h1 class="text-start p-sm-4 px-2 py-2">  </h1>
+            <a class="btn btn-outline-danger text-end text-white p-sm-3 m-sm-3 p-2 m-2" href="index.html"><img src="assets/icons/house.svg" alt="icon"> صفحه ی اصلی </a>
+        </header>
+        <div class="col-11 text-center mx-auto my-5" id="questionContainer">
+            <h2 class="mb-5 text-start">  </h2>
+            <div class="row mb-5 mx-auto">
+                <ul class="d-flex flex-column border-start border-secondary border-3">
+                    <li class="d-flex flex-row p-2 rounded-3"> <input type="radio" id="rdb1" name="options" class="form-check-inline"> <label for="rdb1" class="form-check-label text-start"></label> </li>
+                    <li class="d-flex flex-row p-2 rounded-3"> <input type="radio" id="rdb2" name="options" class="form-check-inline"> <label for="rdb2" class="form-check-label text-start"></label> </li>
+                    <li class="d-flex flex-row p-2 rounded-3"> <input type="radio" id="rdb3" name="options" class="form-check-inline"> <label for="rdb3" class="form-check-label text-start"></label> </li>
+                    <li class="d-flex flex-row p-2 rounded-3"> <input type="radio" id="rdb4" name="options" class="form-check-inline"> <label for="rdb4" class="form-check-label text-start"></label> </li>
+                </ul>
+            </div>
+            <button class="btn btn-success py-3 px-5 mb-5 fs-5"><img src='assets/icons/check-circle.svg' alt='icon'> تایید پاسخ </button>
+            <p class="text-danger fs-5"></p>
+        </div>
+    </div>
+    <script src="assets/js/testQuestionsPage.js"></script>
+</body>
+</html>
