@@ -15,7 +15,7 @@ request.send();
 // Load Lessons
 function loadPage(gradeNumber){
     const grade = JSON.parse(request.response)['grade' + gradeNumber];
-    document.querySelector('head title').innerHTML = 'آزمون های ' + grade.title;
+    // document.querySelector('head title').innerHTML = 'آزمون های ' + grade.title;
     document.querySelector('h1').innerHTML = 'آزمون های ' + grade.title + ' براساس فصول کتاب درسی';
     const lessonsContainer = document.querySelector('.container-fluid div:last-of-type');
 
